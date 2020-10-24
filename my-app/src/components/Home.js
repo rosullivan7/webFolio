@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import * as Icons from "@fortawesome/fontawesome-free-solid"
 
 function Home(){
         return (
@@ -21,17 +23,38 @@ function Home(){
                 </div>
                 {/* Skills columns */}
                 <div class="row row-padding">
-                    <div class="col-md-4 ">
-                        <h2 class="h2-skill">Development</h2>
-                        <p class="p-skills">Python, C++, C#, Java, Pascal</p>
+                    <div class="col-md-4 col-padding">
+                        <div class="card text-white bg-dark mb-3">
+                            <div class="card-body">
+                                <div class="icon-style">
+                                    <FontAwesomeIcon icon={Icons.faCode}  size="3x"  />
+                                </div>
+                                <h2 class="h2-skill">Development</h2>
+                                <p class="p-skills">Python, C++, C#, Java, Pascal</p>
+                            </div>
+                        </div>    
                     </div>
-                    <div class="col-md-4 ">
-                        <h2 class="h2-skill">Front-end / Back-end</h2>
-                        <p class="p-skills">HTML, CSS, JavaScript, Java Springboot, Bootstrap, AngularJS, React.js, Vue.js, PHP, SQL</p>
+                    <div class="col-md-4 col-padding">
+                    <div class="card text-white bg-dark mb-3">
+                            <div class="card-body">
+                                <div class="icon-style">
+                                    <FontAwesomeIcon icon={Icons.faDatabase}  size="3x"  />
+                                </div>
+                                <h2 class="h2-skill">Web Development</h2>
+                                <p class="p-skills">HTML, CSS, JavaScript, Java Springboot, Bootstrap, AngularJS, React.js, Vue.js, PHP, SQL</p>
+                            </div>
+                        </div> 
                     </div>
-                    <div class="col-md-4 ">
-                        <h2 class="h2-skill">Dev Tools</h2>
-                        <p class="p-skills">Git, Android Studio, Unity</p>
+                    <div class="col-md-4 col-padding">
+                    <div class="card text-white bg-dark mb-3">
+                            <div class="card-body">
+                            <div class="icon-style">
+                                    <FontAwesomeIcon icon={Icons.faCodeBranch}  size="3x"  />
+                                </div>
+                                <h2 class="h2-skill">Dev Tools</h2>
+                                <p class="p-skills">Git, Android Studio, Unity</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

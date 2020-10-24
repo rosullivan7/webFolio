@@ -7,7 +7,6 @@ import banner from './components/images/bannerImg.JPG';
 import About from './components/pages/About';
 import Home from './components/Home';
 
-
 import './App.css';
 
 class App extends Component{

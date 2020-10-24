@@ -14,6 +14,7 @@ a, a:hover {
   color: white;
 }
 
+/* HOME CSS */
 .about-class {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -29,6 +30,7 @@ a, a:hover {
   text-align: center;
   padding-left: 30px;
   padding-right: 30px;
+  
 }
 
 .p-about {
@@ -53,6 +55,14 @@ a, a:hover {
 }
 
 .row-padding {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.icon-style {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
