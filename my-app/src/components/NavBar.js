@@ -1,28 +1,18 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-class NavBar extends Component{
-    render() {
+function NavBar(){
         return (
-            
             <nav class="navbar navbar-dark bg-dark navbar-fixed-top">
                     <h1 class="navbar-brand" href="#">Rourke O'Sullivan</h1>
                     <div>
-                        <a class="nav-item" href="#">Home</a>
-                        <a class="nav-item" href="#">Page 1</a>
-                        <a class="nav-item" href="#">Page 2</a>
-                        <a class="nav-item" href="#">Page 3</a>
+                        <Link class="nav-item" to='/'>Home</Link>
+                        <Link class="nav-item" to='/About'>About</Link>
+                        <Link class="nav-item" to='/'>Test1</Link>
+                        <Link class="nav-item" to='/'>Contact</Link>
                     </div>
-
-                    {/* <ul class="nav navbar-nav">
-                        <li class="nav-item"><a href="#">Home</a></li>
-                        <li class="nav-item"><a href="#">Page 1</a></li>
-                        <li class="nav-item"><a href="#">Page 2</a></li>
-                        <li class="nav-item"><a href="#">Page 3</a></li>
-                    </ul> */}
             </nav>
-
         );
-    }
 }
 
 export default NavBar;
