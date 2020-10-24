@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
   line-height: 1.4;
 }
 
@@ -12,4 +12,47 @@ a, a:hover {
   padding-left: 30px;
   padding-right: 30px;
   color: white;
+}
+
+.about-class {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.h1-about {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.h2-skill {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.p-about {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.p-skills {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.row-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
