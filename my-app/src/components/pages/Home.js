@@ -10,7 +10,7 @@ function Home(){
                 <div class="row row-padding">
                     <div class="col-lg-8 col-centered">
                         <h1 class="h1-about">About me.</h1>
-                        <p class="p-about">Hi! My name is Rourke, I am a Computer Science Graduate based in Melbourne. 
+                        <p class="p-about">Hi! My name is Rourke, I'm a Computer Science Graduate based in Melbourne. 
                         I am a passionate programmer and am particularly interested in software development, cloud computing and AI. </p>
                     </div>
                 </div>

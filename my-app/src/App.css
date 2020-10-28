@@ -1,6 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
   line-height: 1.4;
+  
 }
 
 a, a:hover {
@@ -12,6 +13,77 @@ a, a:hover {
   padding-left: 30px;
   padding-right: 30px;
   color: white;
+}
+
+.logo {
+  height: auto;
+  width: 15%;
+}
+
+/* Footer css */
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content {
+  padding: 2.5rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+
+}
+
+.footer-text {
+  text-align: center;
+  padding-bottom: 1.25rem;
+}
+
+/* PROJECTS CSS */
+.proj-class {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.h1-proj {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Table CSS */
+.tbl-container {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.proj-btn {
+  background-color: #4d4d4d;
+  color: #87FF4A;
+  border: 2px solid #87FF4A;
+  border-radius: 4px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* .proj-btn {
+  background-color: darkgreen;
+  color: #72FF00;
+  border: 2px solid #72FF00;
+  border-radius: 4px;
+  font-size: 20px
+} */
+
+.tbl-link {
+  width: 150px;
+  text-align: center;
+  
 }
 
 /* HOME CSS */
