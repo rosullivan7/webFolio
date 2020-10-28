@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as Icons from "@fortawesome/fontawesome-free-solid"
 
@@ -19,7 +20,11 @@ function Projects() {
                         <tr>
                             <th scope="row">Orientation Web App</th>
                             <td>Re-designed and developed Orientation Web Application for University as a final year project with a team of students.</td>
-                            <td class="tbl-link"><button class="proj-btn">View</button></td>
+                            <td class="tbl-link">
+                                <Link class="nav-item" to='/Orientation'>
+                                    <button class="proj-btn">View</button>
+                                </Link>
+                            </td>
                         </tr>
                         <tr>
                             <th scope="row">Tool Management System</th>

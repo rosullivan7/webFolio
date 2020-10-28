@@ -26,15 +26,15 @@ a, a:hover {
   min-height: 100vh;
 }
 
-.content {
+/* .content {
   padding: 2.5rem;
-}
+} */
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
+  height: 20px;
 
 }
 
@@ -43,17 +43,7 @@ a, a:hover {
   padding-bottom: 1.25rem;
 }
 
-/* PROJECTS CSS */
-.proj-class {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 
-.h1-proj {
-  text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
-}
 
 /* Table CSS */
 .tbl-container {
@@ -138,3 +128,21 @@ a, a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+/* PROJECTS CSS */
+.proj-class {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.h1-proj {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.orientation-class {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+

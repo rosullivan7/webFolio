@@ -8,6 +8,7 @@ import Projects from './components/pages/Projects';
 import Home from './components/pages/Home';
 import Footer from './components/footer';
 import Contact from './components/pages/Contact';
+import Orientation from './components/pages/Orientation';
 
 import './App.css';
 
@@ -33,6 +34,9 @@ class App extends Component{
 
               {/* CONTACT PAGE */}
               <Route path="/Contact" component={Contact} />
+
+              {/* Orientation Project */}
+              <Route path="/Orientation" component={Orientation} />
 
             </div>
 
