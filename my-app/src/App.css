@@ -146,3 +146,12 @@ a, a:hover {
   padding-bottom: 50px;
 }
 
+.h1-orientation {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* padding-top: 30px; */
+  /* padding-bottom: 30px; */
+  /* background-color: blueviolet; */
+}
+
