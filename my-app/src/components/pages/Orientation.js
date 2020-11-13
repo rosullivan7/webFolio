@@ -8,16 +8,16 @@ function Orientation() {
         <div class="orientation-class">
             <h1 class="h1-orientation">Orientation Web App re-design for Swinburne</h1>
 
-            <div class="container">
+            <div class="container-fluid">
                 
                 {/* OVERVIEW */}
-                <div class="row">
+                <div class="row orient-row">
 
                     <div class="col">
-                        <h1>Overview</h1>
+                        <h1 class="h1-overview">Overview</h1>
                     </div>
                     <div class="col">
-                        <p>
+                        <p class="content-1">
                             Created for a University final year project, the main driving force behind the creation
                             of this project was the lack of design and clarity in the current orientation website.
                             The ultimate purpose of the website is to provide students useful information about orientation
@@ -36,28 +36,28 @@ function Orientation() {
 
                 </div>
                 {/* VIDEO */}
-                <div class="row">
+                <div class="row  orient-row">
                     <div class="col">
-                        <ReactPlayer url="https://youtu.be/OL7AHU8zhMQ"/>
+                        <ReactPlayer url="https://youtu.be/OL7AHU8zhMQ" controls="true" className="video-player"/>
                     </div>
                     <div class="col">
-                        <h1>Project Presentation</h1>
-                        <p>See the implementation of key features and the transformation from old website. </p>
+                        <h1 class="h1-presentation">Project Presentation</h1>
+                        <p class="content-2">See the implementation of key features and the transformation from old website. </p>
 
                     </div>
 
                 </div>
 
-                <div class="row">
+                {/* <div class="row">
                     <div class="col">
                     </div>
                     <div class="col"></div>
 
-                </div>
+                </div> */}
                     
-                    <h1>Process</h1>
+                    {/* <h1>Process</h1> */}
 
-                </div>
+            </div>
             
 
         </div>
